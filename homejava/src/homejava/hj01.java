@@ -86,6 +86,14 @@ public class hj01 {
                         "%s\n" +
                         "=================================================\n"
                         , result, com);
+                for(int i = 0; i < LOTTO_SIZE; i++){
+                    for(int j = 0; j < LOTTO_ONESIZE; i++){
+                        arr[i][j] = 0;
+                        lottoArr[j] = 0;
+                        computerNUM[j] = 0;
+                    }
+                }
+                count = 0;
 
 
             }else if(userNum == 0){
