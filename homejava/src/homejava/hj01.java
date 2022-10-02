@@ -87,7 +87,7 @@ public class hj01 {
                         "=================================================\n"
                         , result, com);
                 for(int i = 0; i < LOTTO_SIZE; i++){
-                    for(int j = 0; j < LOTTO_ONESIZE; i++){
+                    for(int j = 0; j < LOTTO_ONESIZE; j++){
                         arr[i][j] = 0;
                         lottoArr[j] = 0;
                         computerNUM[j] = 0;
